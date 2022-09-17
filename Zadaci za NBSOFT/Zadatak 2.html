@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS validacija forme</title>
+    <link rel="stylesheet" href="./style/Zadatak2.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="./script/zadatak2.js"></script>
+</head>
+<body id="body">
+    <div class="forma">
+        <div class="ime" id="ime">
+            <label for="firstname" class="fname">Ime: </label>
+            <input type="text" id="firstname"/>
+        </div>
+            <div class="prezime">
+                <label for="secondname" class="sname">Prezime:</label>
+                <input type="text" id="secondname"/>
+            </div>
+            <div class="pol">
+                <label class="pol_lab">Pol:</label>
+                <input  type="checkbox" name="check"  id="Musko" checked value="Muško" onclick="OneTheBox(this)"><label for="Musko" class="musko">Muško</label>
+                <input  type="checkbox" name="check" id="Zensko" value="Žensko" onclick="OneTheBox(this)"><label for="Zensko" class="zensko">Žensko</label>
+            </div>
+            <div class="godina">
+                <label class="godina_lab">Godinu rodjenja:</label>
+                <select id="godine">
+                    <option>1990</option>
+                    <option>1991</option>
+                    <option>1992</option>
+                    <option>1993</option>
+                    <option>1994</option>
+                    <option>1995</option>
+                    <option>1996</option>
+                    <option>1997</option>
+                    <option>1998</option>
+                    <option>1999</option>
+                    <option>2000</option>
+                    <option>2001</option>
+                    <option>2002</option>
+                    <option>2003</option>
+                    <option>2004</option>
+                </select>
+            </div>
+            <div class="address">
+                <label class="adresa">Adresa:</label>
+                <textarea id="adresa" rows="2" cols="30"></textarea>
+            </div>
+            <div class="town">
+                <label for="grad" class="grad_lab">Grad:</label>
+                <input  type="text" id="grad"/>
+            </div>
+            <button onclick="validateform()" class="btn btn-primary">Pošalji podatke</button>
+        </div>       
+</body>
+</html>

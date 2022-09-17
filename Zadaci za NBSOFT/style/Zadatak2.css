@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+html,body{
+    background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+}
+.forma{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: center;
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+.forma .ime .fname{
+    color: white;
+    font-size: 25px;
+}
+.forma .prezime .sname{
+    color: white;
+    font-size: 25px;
+}
+.forma .pol .pol_lab{
+    color: white;
+    font-size: 25px;
+}
+.forma .pol .musko{
+    color: white;
+    font-size: 20px;
+}
+.forma .pol .zensko{
+    color: white;
+    font-size: 20px;
+    
+}
+.forma .godina .godina_lab{
+    color: white;
+    font-size: 25px;
+}
+.forma .address .adresa{
+    color: white;
+    font-size: 25px;
+}
+.forma .town .grad_lab{
+    color: white;
+    font-size: 25px;
+}
